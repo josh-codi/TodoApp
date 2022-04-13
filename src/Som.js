@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 
 export default function Som({setAllTodos, allTodos}) {
   const [text, setText] = useState('')
-  const [arr, setArr] = useState([])
 
   const Change = (e)=>{
     setText(e.target.value)
